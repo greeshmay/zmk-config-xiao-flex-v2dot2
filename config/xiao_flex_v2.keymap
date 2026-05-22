@@ -38,13 +38,13 @@
 
         layer_2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans       &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans       &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &kp UP       &trans     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT  &kp DOWN     &kp RIGHT  &trans  &trans
-&trans  &trans  &trans  &trans                                      &trans       &trans     &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans    &trans
-                        &trans  &trans  &trans    &trans  &trans    &bootloader
+&trans                &trans                &trans  &trans          &trans         &trans       &trans  &trans    &trans       &trans      &trans             &trans
+&kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &trans  &trans          &trans         &trans       &trans  &trans    &kp K_MUTE   &kp C_MUTE  &kp K_VOLUME_DOWN  &kp K_VOLUME_UP
+&trans                &trans                &trans  &trans          &kp PAGE_UP    &trans       &trans  &trans    &kp UP       &trans      &trans             &trans
+&trans                &trans                &trans  &kp LEFT_ARROW  &kp PAGE_DOWN  &kp RIGHT    &trans  &kp LEFT  &kp DOWN     &kp RIGHT   &trans             &trans
+&trans                &trans                &trans  &trans                                                        &trans       &trans      &trans             &trans
+                                                    &trans          &trans         &trans       &trans  &trans    &trans
+                                                    &trans          &trans         &trans       &trans  &trans    &bootloader
             >;
         };
     };
